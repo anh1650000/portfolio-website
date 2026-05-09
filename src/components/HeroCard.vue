@@ -2,7 +2,7 @@
   <div class="hero-content" data-aos="fade-up">
     <!-- Avatar Placeholder -->
     <div class="avatar">
-      <i class="fas fa-user-circle"></i>
+      <img src="../assets/images/avatar.jpg" alt="Avatar" />
     </div>
 
     <!-- Name -->
@@ -92,6 +92,14 @@ onMounted(() => {
   color: var(--dark-bg);
   animation: float 3s ease-in-out infinite;
   box-shadow: 0 0 30px rgba(167, 139, 250, 0.4);
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 @keyframes float {

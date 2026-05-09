@@ -281,6 +281,7 @@ onMounted(async () => {
 .contact-icon {
   width: 40px;
   height: 40px;
+  /* max-width: 5vw; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -289,6 +290,9 @@ onMounted(async () => {
 }
 
 .contact-label {
+  /* width: 100%; */
+  /* padding-left: 1rem; */
+  /* justify-content: center; */
   font-size: 0.9rem;
   opacity: 0.9;
   margin: 0;
